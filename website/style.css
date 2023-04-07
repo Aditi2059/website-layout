@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    background-color: #333;
+}
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 40px 20px;
+    float: left;
+}
+section{
+    text-align: center;
+    padding-top: 40px;
+    height: 80vh;
+}
+
+section:nth-child(even){
+    background-color: antiquewhite;
+}
+iframe{
+    padding: 0px 5px;
+}
+img{
+    padding: 0 20px;
+}
+h2{
+    padding-bottom: 40px;
+}
+footer{
+    overflow: hidden;
+    background-color: #333;
+}
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 40px 20px;
+    float: left;
+}
+.copyright{
+    float: right;
+}
+section h5{
+    margin: 0 130px;
+}
+section video{
+    width: 33%;
+    line-height: normal;
+}
+.banner{
+    background-image: url(../website/images/backrounf.gif);
+    height: 20vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+.flex-align-righ t{
+    margin-left: auto;
+}
+.menu-button:hover{
+    background-color: white;
+    color: black;
+}
+section h2 span{
+    background: linear-gradient(to right, #f5d837, #bbb812);
+    padding: 10px 55px;
+    border-radius: 20px;
+    color: white;
+}
+.profile-image{
+    border-radius: 50%;
+}
+.profile-name{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0 30px 0;
+}
+.sm-handle a{
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+.sm-handle a:hover{
+    background-color: rgb(155, 150, 150);
+}
+.sm-handle a i{
+    margin: 5px;
+}
+.yt-handle{
+    color: red;
+}
+.linkedin-handle{
+    color: blue;
+}
+.insta-handle{
+    color: purple;
+}
+
+@media screen and (max-width: 500px){
+    nav{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .flex-align-righ t{
+        margin-left: 0;
+    }
+}
